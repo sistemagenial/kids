@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Profeta de Deus Kids</title>
+    <meta name="description" content="Histórias bíblicas ilustradas e vídeos educativos para crianças. Conteúdo cristão seguro e inspirador." />
+    <meta name="keywords" content="histórias bíblicas, vídeos cristãos, educação infantil, conteúdo cristão" />
+
+    <!-- Ícones / PWA -->
+    <link rel="icon" type="image/png" href="https://static.readdy.ai/image/90aee2f41c3492197bc6a5939c00cef4/ccb6cc303ad6119eb325a81262c44d3b.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://static.readdy.ai/image/90aee2f41c3492197bc6a5939c00cef4/ccb6cc303ad6119eb325a81262c44d3b.png" />
+    <meta name="theme-color" content="#8b5cf6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Profeta de Deus Kids" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- Manifest: relativo para funcionar no dev e no build com base '/kids/' -->
+    <link rel="manifest" href="/kids/assets/manifest-BV8XSYAE.json" />
+
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Google Fonts (Pacifico para títulos; Comic Neue é importada no index.css) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- ENTRADA DO VITE (DEV e BUILD)
+         No dev o Vite usa /src/main.tsx; no build ele substitui pelos bundles com hash -->
+    <!-- ⚠️ Removido link direto para /kids/assets/index-*.css; importe seu CSS em /src/main.tsx -->
+    <script type="module" crossorigin src="/kids/assets/index-DkWMjuHb.js"></script>
+    <link rel="stylesheet" crossorigin href="/kids/assets/index-BnpJnU7e.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- PWA Service Worker Registration com escopo dinâmico baseado na base do Vite -->
+  </body>
+</html>

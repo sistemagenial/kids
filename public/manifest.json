@@ -1,0 +1,52 @@
+
+{
+  "name": "Profeta de Deus Kids",
+  "short_name": "Profeta Kids",
+  "description": "Histórias bíblicas ilustradas e vídeos educativos para crianças",
+  "start_url": "/kids/",
+  "display": "standalone",
+  "background_color": "#8b5cf6",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait-primary",
+  "scope": "/kids/",
+  "lang": "pt-BR",
+  "categories": ["education", "kids", "entertainment"],
+  "icons": [
+    {
+      "src": "https://static.readdy.ai/image/90aee2f41c3492197bc6a5939c00cef4/ccb6cc303ad6119eb325a81262c44d3b.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://static.readdy.ai/image/90aee2f41c3492197bc6a5939c00cef4/ccb6cc303ad6119eb325a81262c44d3b.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Histórias Bíblicas",
+      "short_name": "Histórias",
+      "description": "Acesse as histórias bíblicas ilustradas",
+      "url": "/kids/historias",
+      "icons": [
+        {
+          "src": "https://static.readdy.ai/image/90aee2f41c3492197bc6a5939c00cef4/ccb6cc303ad6119eb325a81262c44d3b.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Vídeos Bíblicos",
+      "short_name": "Vídeos",
+      "description": "Assista aos vídeos educativos",
+      "url": "/kids/videos",
+      "icons": [
+        {
+          "src": "https://static.readdy.ai/image/90aee2f41c3492197bc6a5939c00cef4/ccb6cc303ad6119eb325a81262c44d3b.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
